@@ -1,0 +1,144 @@
+[versions]
+ktx = "2.5.1"
+composeCompiler = "1.4.0"
+coroutines = "1.6.4"
+koin = "3.3.2"
+ktor = "2.2.3"
+accompanist = "0.28.0"
+coreMvi = "1.0.1"
+sqlDelight = "1.5.3"
+essenty = "1.0.0"
+auth = "2.1.0"
+decompose = "1.0.0"
+multiplatformSettings = "1.0.0"
+
+[libraries]
+androidCoreKtx = "androidx.core:core-ktx:1.8.0"
+androidActivityKtx = "androidx.activity:activity-ktx:1.5.1"
+androidViewModelKtx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "ktx" }
+androidLifecycleKtx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "ktx" }
+androidMaterial = "com.google.android.material:material:1.6.1"
+androidFragmentKtx = "androidx.fragment:fragment-ktx:1.5.5"
+
+composeBom = "androidx.compose:compose-bom:2023.01.00"
+composeUi = { module = "androidx.compose.ui:ui", version = "" }
+composeTooling = { module = "androidx.compose.ui:ui-tooling", version = "" }
+composeToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", version = "" }
+composeMaterial = { module = "androidx.compose.material:material", version = "" }
+composeFoundation = { module = "androidx.compose.foundation:foundation", version = "" }
+composeActivity = "androidx.activity:activity-compose:1.6.1"
+composeNavigation = "androidx.navigation:navigation-compose:2.5.3"
+
+composeUIController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist" }
+composeNavigationMaterial = { module = "com.google.accompanist:accompanist-navigation-material", version.ref = "accompanist" }
+composeInsets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanist" }
+composeSwipeRefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
+composePager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
+composePagerIdicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" }
+composeFlowLayout = { module = "com.google.accompanist:accompanist-flowlayout", version.ref = "accompanist" }
+composePermissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+
+essentyLifecycle = { group = "com.arkivanov.essenty", name = "lifecycle", version.ref = "essenty" }
+
+decompose = { module = "com.arkivanov.decompose:decompose", version.ref = "decompose" }
+decomposeComposeExtensions = { module = "com.arkivanov.decompose:extensions-compose-jetpack", version.ref = "decompose" }
+
+kotlinCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinCoroutinesAndroid = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+
+kotlinxDateTime = "org.jetbrains.kotlinx:kotlinx-datetime:0.4.0"
+
+okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:4.10.0"
+
+ktorCore = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktorOkHttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktorDarwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+ktorSerialization = { module = "io.ktor:ktor-client-serialization", version.ref = "ktor" }
+ktorLogging = { module = "io.ktor:ktor-client-logging", version.ref = "ktor" }
+ktorAuth = { module = "io.ktor:ktor-client-auth", version.ref = "ktor" }
+ktorContentNegotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktorJson = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktorTest = { module = "io.ktor:ktor-client-mock", version.ref = "ktor" }
+
+sqlDelightAndroid = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqlDelight" }
+sqlDelightCoroutinesExtensions = { module = "com.squareup.sqldelight:coroutines-extensions-jvm", version.ref = "sqlDelight" }
+
+multiplatformSettings = { module = "com.russhwolf:multiplatform-settings", version.ref = "multiplatformSettings" }
+
+koinCore = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koinAndroid = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+koinCompose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
+koinTest = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+koinTestJunit = { module = "io.insert-koin:koin-test-junit4", version.ref = "koin" }
+
+firebaseBom = "com.google.firebase:firebase-bom:31.2.2"
+firebaseConfig = { module = "com.google.firebase:firebase-config", version = "" }
+firebaseMessaging = { module = "com.google.firebase:firebase-messaging", version = "" }
+firebaseCrashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx", version = "" }
+firebasePlayServices = { module = "com.google.android.gms:play-services-base", version = "" }
+
+yandexMetrica = "com.yandex.android:mobmetricalib:5.0.1"
+kotlinxSerialization = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"
+dataStore = "androidx.datastore:datastore-preferences:1.0.0"
+androidThreeTen = "com.jakewharton.threetenabp:threetenabp:1.4.0"
+timber = "com.jakewharton.timber:timber:5.0.1"
+napier = "io.github.aakira:napier:2.6.1"
+leakCanary = "com.squareup.leakcanary:leakcanary-android:2.9.1"
+
+securityCryptoKtx = "androidx.security:security-crypto-ktx:1.1.0-alpha04"
+
+junit = "junit:junit:4.13.2"
+mockito = "org.mockito:mockito-core:4.7.0"
+mockitoKotlin = "com.nhaarman:mockito-kotlin-kt1.1:1.6.0"
+assertj = "org.assertj:assertj-core:3.23.1"
+coroutinesTest = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+composeUiTest = "androidx.compose.ui:ui-test-junit4:1.2.1"
+
+desugarJdkLibs = "com.android.tools:desugar_jdk_libs:1.2.0"
+
+[bundles]
+android = ["androidCoreKtx", "androidActivityKtx", "androidViewModelKtx", "androidLifecycleKtx", "androidMaterial"]
+compose = [
+    "composeUi",
+    "composeMaterial",
+    "composeActivity",
+    "composeFoundation",
+    "composeNavigation",
+    "composeToolingPreview",
+]
+composeAccompanist = [
+    "composeNavigationMaterial",
+    "composeInsets",
+    "composeSwipeRefresh",
+    "composePager",
+    "composePagerIdicators",
+    "composeFlowLayout",
+    "composePermissions",
+    "composeUIController"
+]
+koin = [
+    "koinCore",
+    "koinAndroid",
+    "koinCompose"
+]
+ktor = [
+    "ktorCore",
+    "ktorSerialization",
+    "ktorLogging",
+    "ktorAuth",
+    "ktorContentNegotiation",
+    "ktorJson",
+]
+firebase = [
+    "firebaseConfig",
+    "firebaseMessaging",
+    "firebaseCrashlytics",
+    "firebasePlayServices"
+]
+unitTest = [
+    "junit",
+    "mockito",
+    "mockitoKotlin",
+    "assertj",
+    "coroutinesTest"
+]
